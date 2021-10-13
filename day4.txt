@@ -1,0 +1,4 @@
+print("Detail of the Employee")
+def employee_details(empid,name,contract,address,salary):
+    print("Employee id =",empid,"Employee name =",name,"Contract =",contract,"Address",address,"Salary",salary)
+employee_details(empid=1, name='Abc', contract='full', address='asd', salary=123)

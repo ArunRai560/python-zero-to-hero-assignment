@@ -1,0 +1,7 @@
+altitude=int(input("altitude posiion"))
+if altitude==1000:
+    print("pilot please land the plane its safe")
+elif altitude<5000:
+    print("bring down the plane to 1000")
+elif altitude>=5000:
+    print("turn around")
